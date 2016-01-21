@@ -14,13 +14,13 @@ App = React.createClass({
   mapData: function() {     
     // Create a key - value store using q on the y-axis and label on x-axis
     var data = [
+      { q: 0, label: 'Sun' },
       { q: 0, label: 'Mon' },
       { q: 0, label: 'Tue' },
       { q: 0, label: 'Wed' },
       { q: 0, label: 'Thu' },
       { q: 0, label: 'Fri' },
-      { q: 0, label: 'Sat' },
-      { q: 0, label: 'Sun' }
+      { q: 0, label: 'Sat' }
     ];
 
     // Loop over the data variable and map the dates from the database to a day of the week
